@@ -4,8 +4,8 @@
 	$message = htmlspecialchars($_POST["message"]);
 
 	echo "Email: " . $email . 
-		 "\nName: " . $name . 
-		 "\nMessage: " . $message;
+		 "<br />Name: " . $name . 
+		 "<br />Message: " . $message;
 	
 
 ?>

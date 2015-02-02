@@ -11,7 +11,8 @@
 
   	$.post(url, params, function(data) {
   		//do something with feedback data
-  		alert(data);
+  		$(".alert").html(data);
+  		$(".alert").show();
   	});
 
   });
